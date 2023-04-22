@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="/multimedia/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/styles.css">
+
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li> <a href="../index.html">Inicio</a>
+                </li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="descripcion.html">Descripcion</a></li>                
+                <li><a href="ejemplares.html">Ejemplares</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h1>Contacto</h1>
+
+    <main>
+        <form>
+            <div>
+                <label for="name">Nombre:</label>
+                <input type="text" name="name">
+
+                <label for="email">Correo electrónico</label>
+                <input type="email" name="email" id="">
+
+                <label for="petname">Nombre de tu perro</label>
+                <input type="text" name="petname" id="">
+            <div>
+                <label for="msj">Mensaje</label>
+                <textarea name="msj" id="" cols="30" rows="10"></textarea>
+            </div>
+                <label for="petsex">Indique sexo de su perro</label>
+                <input type="radio" name="petsex" id="" value="M">
+                <input type="radio" name="petsex" id="" value="F">
+            
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+
+            <fieldset> <!-- Solo para formularios -->
+                <legend>Permisos</legend>
+                <label for="permisos">Te gustaria que subamos tus fotos</label>
+                <input type="checkbox" name="permisos">si
+                <input type="checkbox" name="permisos">no
+            </fieldset>
+
+            <div>
+                <label for="pais">País</label>
+                <select name="pais" >
+                    <option value="ARG">------</option> <!-- Para que la primera opcion no sea una espécífica -->
+                    <option value="ARG">Argentina</option>
+                    <option value="ALE">Alemania</option>
+                    <option value="USA">Estados Unidos</option>
+                </select>
+            </div>
+            
+        </form>
+    </main>
+    <footer>
+        <div>
+            <ul>
+                <li>Instagram</li>
+                <li>Facebook</li>
+                <li>Whatsapp</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

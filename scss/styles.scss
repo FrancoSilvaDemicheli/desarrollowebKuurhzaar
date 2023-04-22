@@ -1,0 +1,72 @@
+@import "variables";
+@import "ejemplaresStyle";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: $colorPrincipal;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color: $colorSecundario;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;    
+    background-image:url(/multimedia/20131103_191958.jpg);    
+    background-repeat: no-repeat;
+    background-size: cover;    
+    
+}
+.indexH1{
+    background-color: $colorFondo;
+    color: aliceblue;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 30px auto ;
+        
+}
+.imgInicio{
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    border: solid 2px black;
+    background-color: $colorFondo;
+        
+}
+
+.padreImagenes{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    flex-direction: row;
+    img{
+        height: 600px;
+        width: 430px;
+        object-fit: cover;
+    }
+
+}
+
+.menu li{
+    margin: auto 30px;
+    list-style-type: disc;
+    text-decoration: dashed;
+    display:inline-block;
+    padding: 50px 50px;
+}
+
+.pIndex{
+    text-align: center;
+    color: white ;    
+    font-size: 1.5rem;
+}
